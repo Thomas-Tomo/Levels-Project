@@ -1,0 +1,272 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(20, 20, 20);
+}
+header{
+    background-color:rgb(20, 20, 20);
+}
+.great{
+    width: 30%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;   
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: wheat;
+    padding: 20px 50px;
+    text-align: center;
+
+}
+li a:hover {
+    background-color: #111;
+}
+.sectionone{
+    width: 100%;
+    height: 900px;
+    background-image: url("background section one.jpg");
+   background-size: 100% 100%;
+    display: inline-block;
+    box-sizing: border-box;  
+}
+.sampleOneH1{
+    margin-top: 300px;
+    color: wheat;
+    text-align: center;
+    font-size: 65px;
+}
+.sectiontwo{
+    background-color: rgb(20, 20, 20);
+    color: wheat;    
+}
+.sampleOneH2{
+    font-size: 50px;
+    margin-left: 60px;   
+}
+.lastpic{
+    width: 400px;
+    height: 300px;
+    margin: 20px 20px 40px 260px;
+    border: 1px black;
+    box-shadow:2px 2px 3px lightblue;
+}
+.sampleOneParagraph{
+    margin-left: 100px;
+    margin-top: 80px;
+    color: wheat;
+    font-size: 40px;
+}
+.lastpic, .sampleOneParagraph{
+    float:left;
+}
+.level1h{
+    margin-left: 30px;
+    color: wheat;
+    font-size: 55px;
+  }
+  .wrapper{
+    display:flex;
+    justify-content: center;
+  }
+div.gallery {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 70px;
+    border: 1px solid #777;
+    float: left;
+    width: 20%;  
+  }
+  
+div.gallery:hover {
+    border: 1px solid lightblue ;
+  }
+  
+div.gallery img {
+    width: 100%;
+  } 
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: wheat;
+  }
+hr{
+    margin-top: 100px;
+}
+form{
+    color: wheat;
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px wheat;
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input[type="radio"], .form-control input[type="checkbox"]{
+
+    display: inline-block;
+    width: auto; 
+}
+.submitbutt{
+    background-color: silver;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.submitbutt:hover{
+    background-color: wheat;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+
+ /* adding code from aboutme.css*/
+
+.thomaswrapper {    /*this is a wrapper for the picture of me */
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#thomas {    /*width of the picture thomas */
+    width: 100%; 
+}
+.natpis {   /* natpis na slici thomas*/
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 92%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.thomaswrapper:hover .natpis {
+    opacity: 1;
+}
+
+
+.mywebpage{                  /*button for the HOME PAGE*/
+    background-color: #333;
+    color: wheat;
+    border: none;
+    padding: 15px 150px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+.mywebpage:hover{
+    background-color: #111;
+    border: 1px solid #333;
+}
+#h3aboutme{        /*heading about me*/
+    width: 50%;
+    max-width: 500px;
+    color: wheat;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paboutme{        /*description about me*/
+    color: wheat;
+    font-size: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hashtags{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: lightblue;
+}
+.hashtags a{
+    text-decoration: none;
+    color: lightblue;
+}
+.fa {                          /*icons for facebook,google and instagram*/
+    padding: 20px 40px;
+    font-size: 30px;
+    max-width: 500px;
+    text-align: center;
+    text-decoration: none;  
+    margin-right: 5px;
+    margin-bottom: 50px;  
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.wrapper{
+    display:flex;
+    justify-content: center;
+  }
+
+ 
+footer{            /*footer css*/
+    clear: both;
+    color: wheat;
+    font-size: 30px;
+    text-align: center;
+    background-color: #333;
+    padding: 30px;
+ }
+footer a {
+     color: wheat;
+     text-decoration: none;
+ }
+footer a:hover {
+     color: lightblue;
+ }
+ 
+

@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(20, 20, 20);
+}
+header{
+    background-color:rgb(20, 20, 20);
+}
+.great{
+    width: 30%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;   
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: wheat;
+    padding: 20px 50px;
+    text-align: center;
+
+}
+li a:hover {
+    background-color: #111;
+}
+
+.level1h{
+    margin-left: 30px;
+    color: wheat;
+    font-size: 55px;
+  }
+.wrapper{
+    display:flex;
+    justify-content: center;
+
+ }
+div.gallery {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 70px;
+    border: 1px solid #777;
+    float: left;
+    width: 20%;  
+  }
+  
+div.gallery:hover {
+    border: 1px solid lightblue ;
+  }
+  
+div.gallery img {
+    width: 100%;
+  } 
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: wheat;
+  }
+hr{
+    margin-top: 100px;
+}
+form{
+    color: wheat;
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px wheat;
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input[type="radio"], .form-control input[type="checkbox"]{
+
+    display: inline-block;
+    width: auto; 
+}
+button{
+    background-color: silver;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: wheat;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+footer{
+    clear: both;
+    color: wheat;
+    font-size: 30px;
+    text-align: center;
+    background-color: #333;
+    padding: 30px;
+ }

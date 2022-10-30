@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1</title>
+    <link rel="stylesheet" href="sampleOne.css">
+</head>
+<body>
+    <header>
+        <a href="sampleOne.html"><img  class="great" src="do something great.jpg" alt="do something great"></a>        
+        
+        <!--Picture for the header through CSS-->      
+    </header>
+    <!--Navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="levelOne.html"  >Level 1</a></li>
+            <li><a href="level2.html">Level 2</a></li>
+            <li><a href="#level3">Level 3</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+        </ul>
+    </nav>
+    <!--Gallery of three pictures-->
+    <h1 class="level1h">First I must learn these three programming languages!</h1>
+    <div class="wrapper"> <!--wrapper to center the images-->
+     <div class="gallery">
+        <a target="_blank" href="https://www.w3schools.com/html/default.asp">
+          <img src="html picture.png" alt="html image" width="600" height="400">
+        </a>
+        <div class="desc">HTML (HyperText Markup Language) is the most basic building block of the Web.<br>
+             It defines the meaning and structure of web content.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="https://www.w3schools.com/css/default.asp">
+          <img src="css picture.png" alt="css image" width="500" height="400">
+        </a>
+        <div class="desc">CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.<br>
+             It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.
+            </div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="https://www.w3schools.com/js/default.asp">
+          <img src="js picture.png" alt="js image" width="600" height="400">
+        </a>
+        <div class="desc">JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages,<br>
+             but it's used in many non-browser environments as well.</div>
+      </div>
+    </div>
+<hr>
+<h2 class="level1h">Complete the form to get started!</h2>
+<form id="form" action="level2.html"> <!--Create form-->
+    <div class="form-control"> <!--Input for name/text-->
+        <label for="name" id="label-name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name"/>
+    </div>
+
+    <div class="form-control"> <!--Input for email-->
+        <label for="email" id="label-email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email"/>
+    </div>
+
+    <div class="form-control"> <!--Input for age-->
+        <label for="age" id="label-age">Age</label>
+        <input type="text" id="age" placeholder="Enter your age"/>
+    </div>
+
+    <div class="form-control"> <!--Input for role-->
+        <label for="role" id="label-role">Which option best describes you?</label>
+        <!--Dropdown option-->
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-control">
+        <label>Would you recommend this path to yourself?</label>
+        <label for="rec1">
+            <input type="radio" id="rec" name="rec">Yes
+        </label>
+        <label for="rec2">
+            <input type="radio" id="rec" name="rec">No
+        </label>
+        <label for="rec3">
+            <input type="radio" id="rec" name="rec">Maybe
+        </label>
+    </div>
+
+    <div class="form-control">
+        <label>Languages you want to learn:
+            <small>Check all that apply</small>
+        </label>
+        <label for="inp-1">
+            <input type="checkbox" name="inp-1">HTML
+        </label>
+        <label for="inp-2">
+            <input type="checkbox" name="inp-1">CSS
+        </label>
+
+        <label for="inp-3">
+            <input type="checkbox" name="inp-1">JavaScript
+        </label>
+    </div>
+
+    <div class="form-control">
+        <label for="comments">Any comments or suggestions</label>
+        <!--Multi-line text input control-->
+        <textarea name="comment" id="comment" placeholder="Enter your comment here">
+        </textarea>
+    </div>
+
+    <button class="submitbutt" type="submit" value="submit">Submit Form</button>
+
+</form>
+<footer><a href="mailto:thomas.tdomitrovic@gmail.com">thomas.tdomitrovic@gmail.com</a></footer>
+   
+</body>
+</html>
